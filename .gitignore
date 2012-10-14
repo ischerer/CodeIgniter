@@ -7,3 +7,14 @@ application/cache/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
+
+._*
+.htaccess
+*database.php
+*config.php
+*.bak
+*/config/*
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html
